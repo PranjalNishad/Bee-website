@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasp Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <img src="./image/OIP (2).jpeg" alt="img">
+            <a href="#">About me</a>
+            <a href="#">Contact</a>
+
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Wasp</h1>
+
+        <div class="HeroDivOne">
+            
+            <div class="LeftDivOne">
+                <img class="image" src="./image/bQrLdg40Z6GQVFFYKcdvf.webp" alt="flower" width="1000px">               
+            </div>
+            
+            <div class="RightDivOne">
+                <p class="paraone">We all know that wasps can sting repeatedly, but here are some facts about wasps you may not know.</p>
+                <a class="anchor" href="#">Learn more</a>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="info-section">
+        <div class="number">01</div>
+        <div class="RightDivTwo">
+            <h2 class="HeadingTwo">Wasp venom contains a pheromone that causes other wasps to become more aggressive.</h2>
+            <p class="ParaTwo">The sting of a wasp should wear off within 24 hours, but for a small minority of people, the venom in their sting causes anaphylactic shock which can be fatal.</p>
+        </div>
+    </section>
+     
+
+
+    <section class="info-sectio">
+        <div class="LeftDivThree">          
+            
+                <div class="number">02</div>
+                
+                <div class="info">
+                <h2 class="HeadThree">Most wasps are capable of stinging numerous times.</h2>
+                <p class="ParaThree">Unlike many bee species, most wasps are capable of stinging numerous times because their stinger is not barbed.</p>
+
+                </div>
+            
+
+        </div>
+
+        <div class="RightDivThree">
+            <img class="leaf" src="./image/GeQrrO4KxVoJnIe9XFcQ81.webp" alt="">
+        </div>
+        </section>
+
+
+        <section class="info-sectionthree">
+
+            <div class="rightdiv">
+
+                <img class="redflower" src="./image/B7lNTLNrpNwK0a838ywrSg.webp" alt="">
+                
+            </div>
+            <div class="leftdiv">
+                <div class="number">03</div>
+                <h2 class="HeadFour">Though wasp stings hurt, symptoms normally improve after a few hours</h2>
+                <p class="ParaFour">Though wasp sting hurt, symptoms normally improve after a few hours but you may still feel irritation and swelling for a few days.</p>
+            </div>
+    
+    
+            
+            </section>
+
+    <script>
+        const sections = document.querySelectorAll('.info-section, .info-sectio, .info-sectionthree');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector('.nav');
+
+        hamburger.addEventListener('click', ()=> {nav.classlist.toggle('active');});
+    </script>
+
+</body>
+</html>
