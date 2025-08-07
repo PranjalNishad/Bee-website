@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="learning fascinating facts about wasps, their stings, and behaviour.">
     <title>Wasp Information</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -51,7 +51,7 @@
      
 
 
-    <section class="info-sectio">
+    <section class="info-sectionTwo">
         <div class="LeftDivThree">          
             
                 <div class="number">02</div>
@@ -66,7 +66,7 @@
         </div>
 
         <div class="RightDivThree">
-            <img class="leaf" src="./image/GeQrrO4KxVoJnIe9XFcQ81.webp" alt="">
+            <img class="leaf" src="./image/GeQrrO4KxVoJnIe9XFcQ81.webp" alt="wasp logo">
         </div>
         </section>
 
@@ -75,7 +75,7 @@
 
             <div class="rightdiv">
 
-                <img class="redflower" src="./image/B7lNTLNrpNwK0a838ywrSg.webp" alt="">
+                <img class="redflower" src="./image/B7lNTLNrpNwK0a838ywrSg.webp" alt="wasp logo">
                 
             </div>
             <div class="leftdiv">
@@ -89,7 +89,7 @@
             </section>
 
     <script>
-        const sections = document.querySelectorAll('.info-section, .info-sectio, .info-sectionthree');
+        const sections = document.querySelectorAll('.info-section, .info-sectionTwo, .info-sectionthree');
 
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -109,7 +109,7 @@
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector('.nav');
 
-        hamburger.addEventListener('click', ()=> {nav.classlist.toggle('active');});
+        hamburger.addEventListener('click', ()=> {nav.classList.toggle('active');});
     </script>
 
 </body>
