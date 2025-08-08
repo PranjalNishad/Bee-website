@@ -339,6 +339,8 @@ nav a:hover {
     font-weight: bold;
 }
 
+/* Footer section  */
+
 .site-footer{
     height: 30vh;
     background: linear-gradient(180deg, #026e38, #035e31);
