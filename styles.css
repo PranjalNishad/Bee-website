@@ -339,6 +339,14 @@ nav a:hover {
     font-weight: bold;
 }
 
+.site-footer{
+    height: 30vh;
+    background: linear-gradient(180deg, #026e38, #014f28);
+    color: #f5f3e9;
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+}
+
 
 /* Responsive design */
 @media (max-width: 768px) {
