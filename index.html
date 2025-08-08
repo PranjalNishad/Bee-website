@@ -68,7 +68,7 @@
         <div class="RightDivThree">
             <img class="leaf" src="./image/GeQrrO4KxVoJnIe9XFcQ81.webp" alt="wasp logo">
         </div>
-        </section>
+    </section>
 
 
         <section class="info-sectionthree">
@@ -86,31 +86,11 @@
     
     
             
-            </section>
-
-    <script>
-        const sections = document.querySelectorAll('.info-section, .info-sectionTwo, .info-sectionthree');
-
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, {
-            threshold: 0.1
-        });
-
-        sections.forEach(section => {
-            observer.observe(section);
-        });
+        </section>
 
 
-        const hamburger = document.querySelector(".hamburger");
-        const nav = document.querySelector('.nav');
+    <script src="script.js"></script>
 
-        hamburger.addEventListener('click', ()=> {nav.classList.toggle('active');});
-    </script>
 
 </body>
 </html>
