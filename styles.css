@@ -234,7 +234,7 @@ nav a:hover {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    height: 100vh;
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s ease;
@@ -291,9 +291,9 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s ease;
@@ -308,9 +308,10 @@ nav a:hover {
 
 
 .redflower{
-    width: 1300px;
+    width: 1400px;
     display: flex ;
-    margin-left: -700px
+    margin-left: -1660px;
+    margin-top: 40px;
     
 }
 
@@ -354,15 +355,20 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    gap: 20px;
+    width: 95vw;
+    /* gap: 70px; */
 }
 
 .footer-logo {
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     gap: 15px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 20px;
 }
 
 .footer-logo img {
@@ -379,16 +385,24 @@ nav a:hover {
     transition: color 0.3s;
 }
 
+
 .footer-links a:hover {
     color: #edf4a5;
 }
 
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+
 .footer-social a img {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin: 0 5px;
-    filter: brightness(0) invert(1);
+    /* filter: brightness(1) invert(1); */
     transition: transform 0.3s;
+    border-radius: 20px;
+
 }
 
 .footer-social a img:hover {
