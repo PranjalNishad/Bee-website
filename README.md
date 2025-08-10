@@ -38,27 +38,27 @@ The site uses **HTML**, **CSS**, and **JavaScript** to deliver smooth animations
 ### 1️⃣ Clone the repository
 ```bash
 
-    git clone https://github.com/yourusername/wasp-facts.git
+      git clone https://github.com/yourusername/wasp-facts.git
 
-2️⃣ Open the project
+### 2️⃣ Open the project
 
-    Navigate to the folder and open index.html in your browser.
+      Navigate to the folder and open index.html in your browser.
 
-📱 Responsive Design
+###📱 Responsive Design
 
-    The website is optimized for:
+      The website is optimized for:
     
-    Mobile devices
+      Mobile devices
     
-    Tablets
+      Tablets
     
-    Desktops
+      Desktops
 
-🔮 Future Improvements
+###🔮 Future Improvements
 
-    Add more wasp facts and interactive quizzes.
+      Add more wasp facts and interactive quizzes.
     
-    Include a dark mode toggle.
+      Include a dark mode toggle.
 
-    Improve accessibility (ARIA roles, keyboard navigation).
+      Improve accessibility (ARIA roles, keyboard navigation).
 
