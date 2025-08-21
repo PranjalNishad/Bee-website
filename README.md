@@ -14,6 +14,12 @@ The site uses **HTML**, **CSS**, and **JavaScript** to deliver smooth animations
 
 ---
 
+## 📸 Preview
+
+![Login Page Screenshot](../home/pranjal/css projects/bee website/image/Screenshot from 2025-08-14 13-50-52.png)
+
+---
+
 ## ✨ Features
 
     - **Responsive Layout** – Works on both desktop and mobile devices.
