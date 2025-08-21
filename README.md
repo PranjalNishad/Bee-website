@@ -16,7 +16,7 @@ The site uses **HTML**, **CSS**, and **JavaScript** to deliver smooth animations
 
 ## 📸 Preview
 
-![wasp fact Screenshot](./image/Screenshot.png)
+![wasp fact Screenshot](./image/screenshot.png)
 
 ---
 
